@@ -1,0 +1,13 @@
+{
+  "nb0_reference_match": true,
+  "nb0_init_loss": 0.6931471824645996,
+  "heldout_judged": 50,
+  "images": [
+    "02-sft-loss.png",
+    "02b-pref-length.png",
+    "03-dpo-reward-curves.png",
+    "04-side-by-side-table.png"
+  ],
+  "gpu": "Tesla T4",
+  "gpu_total_bytes": 15637086208
+}

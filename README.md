@@ -1,5 +1,15 @@
 # Ngày 22 — Lab căn chỉnh mô hình bằng DPO/ORPO (Track 3)
 
+## Kết quả bài nộp — Võ Huy Hoàng, 2A202602548
+
+- [Notebook T4 đã chạy NB0–NB4, giữ output](colab/Lab22_DPO_T4_executed.ipynb).
+- [Phản tư và phân tích kết quả thật](submission/REFLECTION.md).
+- [Metrics DPO](adapters/dpo/dpo_metrics.json), [kết quả giám khảo](data/eval/judge_summary.json), và [4 ảnh bắt buộc](submission/screenshots/).
+- DPO reward accuracy held-out: **71%**. Win rate chất lượng đầu ra: **45%**, CI 95% **38–51%** trên 50 câu held-out; chưa đủ bằng chứng tốt hơn SFT.
+- Qwen sanity 66.7% bị loại; giám khảo cuối là Llama với sanity 100%. Không chạy bonus.
+
+Artifact được tạo trên Colab tại `/content/lab22`. Adapter config giữ nguyên đường dẫn nguồn chạy; verifier gốc phải chạy ở runtime này. Trọng số mô hình không được commit. Hướng dẫn lab gốc nằm bên dưới.
+
 Lab cho học phần **AICB-P2T3 · Ngày 22 · DPO/ORPO Alignment — từ SFT đến học theo sở thích**.
 
 > Bản K4 cập nhật tháng 10/2026 (xem [`CHANGELOG.md`](CHANGELOG.md)). Mọi thời gian trong tài liệu này là

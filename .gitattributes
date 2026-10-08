@@ -1,0 +1,2 @@
+# Preserve bytes used by judge_summary.json outputs_sha256 on Windows and Colab.
+data/eval/*.jsonl -text
