@@ -127,3 +127,5 @@ Không chạy.
 Notebook đã chạy: `colab/Lab22_DPO_T4_executed.ipynb`; giữ output NB0–NB4. Dữ liệu, ảnh và JSON lấy trực tiếp từ runtime. Bằng chứng và trọng số hai adapter đã sao lưu tại `MyDrive/Lab22/run-20261008-154050`. ZIP bằng chứng chỉ chứa config của merged model; trọng số merged SFT không nằm trong ZIP này. Không commit trọng số hoặc khoá API.
 
 `adapters/dpo/adapter_config.json` giữ nguyên đường dẫn Colab `/content/lab22/models/sft-merged`; không sửa thành đường dẫn Windows để làm sai lệch nguồn chạy. Verifier gốc cần chạy tại `/content/lab22` với mã nguồn, REFLECTION và các artifact đầy đủ. Lần chạy này có output thực tế từng phần, nhưng chưa chạy lại toàn bộ pipeline từ môi trường sạch.
+
+`make verify` đã chạy tại `/content/lab22` và kết thúc với mã 0. Log gốc nằm ở `submission/verify_colab.log`, metadata ở `data/eval/verification.json`, và ảnh xác nhận ở `submission/screenshots/core-verify-colab.jpg`. Verifier không bị sửa để bỏ qua kiểm tra. Repo GitHub đã public; việc nộp LMS chưa hoàn tất vì trang VLearn báo cần đăng nhập bằng tài khoản học viên đã được cấp.

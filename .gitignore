@@ -45,6 +45,9 @@ hf_cache/
 .env.local
 *.token
 
+# Local delivery bundles are generated from tracked files.
+submission/*.zip
+
 # Editor / OS
 .DS_Store
 .idea/

@@ -1,0 +1,9 @@
+{
+  "command": "make verify",
+  "cwd": "/content/lab22",
+  "returncode": 0,
+  "source_commit": "f7b74f3a99decef18db2c530f0572067aec946ec",
+  "verifier_sha256": "3f21c251254d54ff8e88014010b8215afed367cba0aeecbd7e1b8492eef9583d",
+  "outputs_sha256": "3d31fbf819bf66c75949a5cd355762b264d260834242ff232fb3b52a5862ab3b",
+  "full_clean_pipeline_rerun": false
+}

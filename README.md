@@ -7,6 +7,7 @@
 - [Metrics DPO](adapters/dpo/dpo_metrics.json), [kết quả giám khảo](data/eval/judge_summary.json), và [4 ảnh bắt buộc](submission/screenshots/).
 - DPO reward accuracy held-out: **71%**. Win rate chất lượng đầu ra: **45%**, CI 95% **38–51%** trên 50 câu held-out; chưa đủ bằng chứng tốt hơn SFT.
 - Qwen sanity 66.7% bị loại; giám khảo cuối là Llama với sanity 100%. Không chạy bonus.
+- **`make verify` đã qua trên Colab**, mã thoát 0: [log gốc](submission/verify_colab.log), [metadata kiểm tra](data/eval/verification.json), [ảnh xác nhận](submission/screenshots/core-verify-colab.jpg).
 
 Artifact được tạo trên Colab tại `/content/lab22`. Adapter config giữ nguyên đường dẫn nguồn chạy; verifier gốc phải chạy ở runtime này. Trọng số mô hình không được commit. Hướng dẫn lab gốc nằm bên dưới.
 
